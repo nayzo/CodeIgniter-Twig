@@ -25,13 +25,13 @@ or, render the template but don't display it:
 
 Guess what ... it's super easy! From anywhere within your CI application:
 
-		$this->twig->addFunction('form_open');
+	$this->twig->addFunction('form_open');
 	
-	or, have a look at the loadMyFunctions() method in libraries/Twig.php and uncomment a block that works best for you to have functions added when the library is loaded.
+or, have a look at the loadMyFunctions() method in libraries/Twig.php and uncomment a block that works best for you to have functions added when the library is loaded.
 	
-	Call these additional functions just like you would call any other function:
+Call these additional functions just like you would call any other function:
 	
-		{{ form_open('submit/url') }}
+	{{ form_open('submit/url') }}
 
 ## Thanks to the following for precedents
 
