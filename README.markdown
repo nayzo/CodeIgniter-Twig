@@ -10,16 +10,16 @@ Super easy -- just copy the files into their respective CodeIgniter locations. T
 
 Also, super easy --
 
-		$this->load->library('twig');
-		$this->twig->render('my_template');
+	$this->load->library('twig');
+	$this->twig->render('my_template');
 
-	or, with additional data passed to the template:
+or, with additional data passed to the template:
 	
-		$this->twig->render('my_template', array('a_variable' => 'my value'));
+	$this->twig->render('my_template', array('a_variable' => 'my value'));
 
-	or, render the template but don't display it:
+or, render the template but don't display it:
 	
-		$output = $this->twig->render('my_template');
+	$output = $this->twig->render('my_template');
 
 ### Exposing Additional Functions
 
